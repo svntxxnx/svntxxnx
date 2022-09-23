@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__inner">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <div class="header__top">
+                            <div class="logo">
+                                <a href="index.html"><img src="../img/logo.jpg" width="200" alt="Logo"></a>
+                            </div>
+                            <div class="burger">
+                                <span class="burger__line"></span>
+                            </div>
+                            <div class="options">
+                                <a href="#" class="call option__item">
+                                    <div class="options__title">
+                                        <span>Заказать</span>
+                                        <p></p>
+                                        Обратный звонок
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="nav">
+                                <li class="nav__item"><a class="link__item" href="aboutus.html">о компании</a></li> 
+                                <li class="nav__item"><a class="link__item" href="services.html">услуги</a></li>
+                                <li class="nav__item"><a class="link__item" href="information.html">информация</a></li>
+                                <li class="nav__item"><a class="link__item" href="news.html">новости</a></li>
+                                <li class="nav__item"><a class="link__item" href="https://yandex.ru/profile/81373571577?lr=213">отзывы</a></li>
+                                <li class="nav__item"><a class="link__item" href="discounts.html">скидки</a></li>
+                                <li class="nav__item"><a class="link__item" href="contacts.html">Контакты</a></li> 
+                            </ul>
+                        </nav>
+                        <div class="header__works">
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/chain.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Гражданские </span> дела
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/icon.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Юридическая </span> помощь в мфц
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/man.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>услуги</span> адвоката
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/man.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>услуги</span> юриста
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/support.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Юридическая</span> консультация
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal hidden" id="modal-1" data-modal> 
+                <div class="modal__window">
+                    <div class="card">
+                        <div class="card__title">Обратный звонок</div>
+                        <form action="#" class="form">
+                            <input type="text" class="modal__input" placeholder="Имя" required>
+                            <input type="tel" class="modal__input" placeholder="Телефон" required>
+                            <input type="date" class="modal__input" placeholder="Дата звонка" required>
+                            <input type="time" class="modal__input" placeholder="Время звонка" required>
+                            <div class="personal">
+                                <label for="personal">
+                                    СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                                </label>
+                                <input type="checkbox" name="" id="personal" required>
+                            </div>
+                            <button class="submit__btn modal__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal2 hidden" id="modal-2">
+                <div class="modal__window">
+                    <div class="card">
+                        <div class="card__title">Связь с юридическим центром</div>
+                        <form action="#" class="form">
+                            <input type="text" class="modal__input" placeholder="Имя" required>
+                            <textarea name="" id="" cols="30" rows="10" class="form__textarea modal__textarea" placeholder="Ваше сообщение"></textarea>
+                            <input type="tel" class="modal__input" placeholder="Телефон" required>
+                            <input type="email" class="modal__input" placeholder="Электронная почта E-mail" required>
+                            <div class="personal">
+                                <label for="personal">
+                                    СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                                </label>
+                                <input type="checkbox" name="" id="personal" required>
+                            </div>
+                            <button class="submit__btn modal__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="about__us">
+                <div class="container">
+                    <div class="about__us__block">
+                        <div class="about__company__title">
+                            ГРАЖДАНСКИЕ ДЕЛА - ПРАВОВЫЕ ВОПРОСЫ ПО ГРАЖДАНСКИМ ДЕЛАМ
+                        </div>
+                        <div class="about__us__img">
+                            <img src="../img/grazhdanskie-dela.jpg"  alt="grazhdanskie-dela">
+                        </div>
+                        <p class="about__us__text">
+                            Гражданские дела – это спектр правовых вопросов, охватывающих гражданское, семейное, трудовое, земельное и иное право, требующих незамедлительного рассмотрения и разрешения. Урегулированием возникших ситуаций занимаются опытные юристы и адвокаты. Гражданские дела включают расширенный пакет опций, с включением разработки персонального алгоритма действий. Основная задача специалиста – отстаивание и защита прав клиента.
+                        </p>
+                        <div class="gray__title">УСЛУГИ ПО ГРАЖДАНСКИМ ДЕЛАМ В МОСКВЕ И МОСКОВСКОЙ ОБЛАСТИ
+                            </div>
+                        <p class="about__us__text">
+                            Услуги адвокатов и юристов по гражданским делам включают расширенный пакет опций:
+                        </p>
+                        <div class="about__us__ul">
+                            <li class="about__us__item about__us__item2">устное, письменное и удаленное консультирование относительно возникшего вопроса</li>
+                            <li class="about__us__item about__us__item2">составление юридических заключений</li>
+                            <li class="about__us__item about__us__item2">предоставление справок по вопросам защиты гражданских прав в органах исполнительной власти</li>
+                            <li class="about__us__item about__us__item2">досудебное урегулирование конфликтных ситуаций</li>
+                            <li class="about__us__item about__us__item2">юридический анализ предоставленной информации</li>
+                            <li class="about__us__item about__us__item2">сбор доказательств</li>
+                            <li class="about__us__item about__us__item2">составление исков</li>
+                            <li class="about__us__item about__us__item2">составление запросов</li>
+                            <li class="about__us__item about__us__item2">представление интересов заказчика в районных, городских и апелляционных судах</li>
+                            <li class="about__us__item about__us__item2">юридическое сопровождение сделок</li>
+                        </div>
+                        <div class="left__imgs">
+                            <a href="#" download="" class="left__img">
+                                <img src="../img/doc-mini-img.jpg" alt="">
+                            </a>
+                            <a href="#" download="" class="left__img">
+                                <img src="../img/doc-mini-img.jpg" alt="">
+                            </a>
+                        </div>
+                        <p class="about__us__text">
+                            Спектр услуг по гражданским делам не ограничивается представленными опциями. Полный список операций можно узнать по указанным номерам телефонов. Специалисты компании Атлант предоставляют комплексные услуги в вопросах защиты гражданского права физических лиц.
+                            Обязанности юристов и адвокатов сопряжены с рядом действий, основная задача которых – грамотное решение возникшей проблемы с максимально положительным результатом.
+                            Услуги специалистов включают судебное представительство интересов клиента, обжалование судебных решений в апелляционном и кассационном порядке, представительство интересов в органах государственной власти.
+                        </p>
+                        <p class="about__us__text">
+                            По запросу, сотрудники компании Атлант подготавливают документы правового характера, а также отслеживают правильность их составления. Это касается договоров, контрактов, жалоб, заявлений, актов, исков и т.д. Без подготовки, самостоятельно составить запрос практически невозможно. Физические лица, ровно, как и юридические представители, нуждаются в грамотной профессиональной поддержке.
+                            Специалисты нашей компании отвечают за разработку персонального алгоритма работы, который гарантирует достижение поставленной цели на правой основе. Деятельность организации сопряжена с установленными нормами и правилами, действующего законодательства РФ.
+                        </p>
+                    </div>
+                    <div class="about__us__block">
+                        <div class="about__company__title company__title">
+                            ЮРИДИЧЕСКАЯ ПОМОЩЬ ПО ГРАЖДАНСКИМ ДЕЛАМ В МОСКВЕ И МОСКОВСКОЙ ОБЛАСТИ
+                        </div>
+                        <p class="about__us__text">
+                            Юридическая помощь по гражданским делам от наших специалистов охватывает все существующие виды деятельности, попадающие под действие гражданского права. В данную категорию относят:
+                        </p>
+                        <ul class="about__us__ul">
+                            <li class="about__us__item about__us__item2">наследственные споры</li>
+                            <li class="about__us__item about__us__item2">имущественные споры</li>
+                            <li class="about__us__item about__us__item2">долговые обязанности</li>
+                            <li class="about__us__item about__us__item2">возврат убытков</li>
+                            <li class="about__us__item about__us__item2">земельные споры</li>
+                        </ul>
+                    </div>
+                    <div class="about__us__img second__img">
+                        <img src="../img/aboutusyt.jpg" alt="about__company">
+                    </div>
+                    <p class="about__us__text">
+                        Наследственные споры – это расширенная категория, охватывающая все действия, связанные с составлением наследства, признания права на наследственное имущество, оспаривание размеров наследства и т.д. Этот вопрос требует квалифицированной подготовки. Самостоятельно отстоять собственные права – не простая задача, требующая понимания функционирования гражданского аппарата. Имущественные споры, возникающие на фоне оформления купли-продажи, аренды жилых/нежилых помещений, перевозок, найма, мены и т.д. решаются по четкому алгоритму, который составляется персонально для каждого конкретного случая.
+                    </p>
+                    <p class="about__us__text">Долговые обязанности – сложный вопрос, охватывающий целый спектр операций, связанных с расчетом пени, индексом инфляции и т.д.</p>
+                    <p class="about__us__text">Особое внимание уделяется вопросу возврата убытков, которые были получены в ходе участия в дорожно-транспортных происшествиях. Часто, физические лица сталкиваются с неправомерными действиями со стороны работников ГИБДД, некорректной работой страховых служб и уклонением от ответственности истинного нарушителя. В данном вопросе квалифицированная поддержка юристов и адвокатов играет ключевую роль.</p>
+                    <p class="about__us__text">К земельным спорам относят вопросы относительно самовольного использования чужого участка, нарушения прав его использования, незаконное возведение жилых/нежилых помещений и т.д.</p>
+                    <p class="about__us__text">По всем указанным вопросам можно получить бесплатную консультацию по телефону! Опытные специалисты помогут в решении возникшей проблемы с минимальными временными и финансовыми затратами.</p>
+                    <div class="about__us__block">
+                        <div class="about__company__title company__title">
+                            УСЛУГИ АДВОКАТА И ЮРИСТА ПО ГРАЖДАНСКИМ ДЕЛАМ В МОСКВЕ И МОСКОВСКОЙ ОБЛАСТИ
+                        </div>
+                        <p class="about__us__text">
+                            Специалисты нашей компании предлагают расширенный пакет операций, направленных на разрешение любых ситуаций, попадающих под действие гражданского права. В услуги адвокатов входит:
+                        </p>
+                        <ul class="about__us__ul">
+                            <li class="about__us__item about__us__item2">
+                                устное консультирование
+                            </li>
+                            <li class="about__us__item about__us__item2">
+                                подготовка иска
+                            </li>
+                            <li class="about__us__item about__us__item2">
+                                оформление и подача заявлений установленного образца
+                            </li>
+                            <li class="about__us__item about__us__item2">
+                                присутствие в суде с целью защиты прав
+                            </li>
+                            <li class="about__us__item about__us__item2">
+                                ведение дел в суде
+                            </li>
+                        </ul>
+                        <div class="important__text">
+                            <span>Важно!</span>
+                            <p>Под каждый вид гражданского дела подбирается персональный список операций и опций.</p>
+                        </div>
+                    </div>
+                    <div class="about__us__dotted">
+                        <div class="dotted__item">
+                            <div class="dotted__title">ХОЗЯЙСТВЕННЫЕ СПОРЫ</div>
+                            <div class="dotted__subtitle">Для разрешения хозяйственных споров, специалисты компании Атлант предоставляют следующие услуги:</div>
+                            <ul class="about__us__ul">
+                                <li class="about__us__item about__us__item2">
+                                    устное консультирование
+                                </li>
+                                <li class="about__us__item about__us__item2">
+                                    подготовка искового заявления
+                                </li>
+                                <li class="about__us__item about__us__item2">
+                                    оформление ходатайства
+                                </li>
+                                <li class="about__us__item about__us__item2">
+                                    присутствие в суде 
+                                </li>
+                                <li class="about__us__item about__us__item2">
+                                    полное ведение хозяйсвенного дела
+                                </li>
+                                <li class="about__us__item about__us__item2">
+                                    сопровождение в апелляционной инстанации
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dotted__item">
+                            <div class="dotted__title">КОНСУЛЬТИРОВАНИЕ БИЗНЕСА</div>
+                            <div class="dotted__subtitle">В указанный спектр услуг входит устное или письменное консультирование специалиста, составление юридического заключения и решение спорных вопросов в ходе ведения бизнеса. Перечень операций предоставляется на основании ранее составленного договора.</div>
+                        </div>
+                        <div class="dotted__item">
+                            <div class="dotted__title">РЕШЕНИЕ ДЕЛ О БАНКРОТСТВЕ</div>
+                            <div class="dotted__subtitle">Спектр операций относительно решения задач о банкротстве включает устное или письменное консультирование и разработку персонального алгоритма действий. К основным услугам относят:</div>
+                            <ul class="about__us__ul">
+                                <li class="about__us__item about__us__item2 ">
+                                    оформление и подачу заявления
+                                </li>
+                                <li class="about__us__item about__us__item2 ">
+                                    присутствие в суде
+                                </li>
+                                <li class="about__us__item about__us__item2 ">
+                                    полное ведение дела
+                                </li>
+                                <li class="about__us__item about__us__item2 ">
+                                    присутствие при апелляции 
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dotted__item">
+                            <div class="dotted__title">УСЛУГИ СПЕЦИАЛИСТОВ ПО НАЧИСЛЕНИЮ АЛИМЕНТОВ</div>
+                            <div class="dotted__subtitle">При оформлении пакета услуг клиент получает устное или письменное консультирование, подготовку заявления, а также:</div>
+                            <ul class="about__us__ul">
+                                <li class="about__us__item about__us__item2 ">
+                                    представительство в суде
+                                </li>
+                                <li class="about__us__item about__us__item2 ">
+                                    поездку в суд в иных целях
+                                </li>
+                                <li class="about__us__item about__us__item2 ">
+                                    полное ведение дела до его благоприятного завершения
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dotted__item">
+                            <div class="dotted__title">ПРАВОВОЙ АНАЛИЗ</div>
+                            <div class="dotted__subtitle">Правовой анализ актуален при совершении сделок с подписанием договоров. Специалист предоставляет развернутую устную консультацию и проводит экспертизу договора или контракта.</div>
+                        </div>
+                        <div class="dotted__item">
+                            <div class="dotted__title">СОПРОВОЖДЕНИЕ В ОРГАНЫ ГОСУДАРСТВЕННОЙ ВЛАСТИ</div>
+                            <div class="dotted__subtitle">Адвокат сопровождает клиента в органах государственной власти, в том числе, в налоговую службу. Основная задача специалиста – подготовка иска, обжалование решений в административном порядке, представительство в суде и полное ведение дела.
+                            Полный перечень услуг, предоставляемых специалистами компанииАтлант представлен на официальной странице организации.Развернутая консультация доступна всем клиентам.</div>
+                        </div>
+                        <div class="dotted__item">
+                            <div class="dotted__title">СОПРОВОЖДЕНИЕ В ОРГАНЫ ГОСУДАРСТВЕННОЙ ВЛАСТИ</div>
+                            <div class="dotted__subtitle">Адвокат сопровождает клиента в органах государственной власти, в том числе, в налоговую службу. Основная задача специалиста – подготовка иска, обжалование решений в административном порядке, представительство в суде и полное ведение дела.
+                            Полный перечень услуг, предоставляемых специалистами компанииАтлант представлен на официальной странице организации.Развернутая консультация доступна всем клиентам.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__us__block">
+                        <div class="about__company__title company__title">
+                            ОКАЗАНИЕ ПОМОЩИ ПО ГРАЖДАНСКИМ ДЕЛАМ В МОСКВЕ И МОСКОВСКОЙ ОБЛАСТИ ОТ КОМПАНИИ АТЛАНТ
+                        </div>
+                        <p class="about__us__text">
+                            При обращении к адвокату, клиент получает индивидуальный подход, основанный на составлении персонального алгоритма работы. Каждый вопрос рассматривается с точки зрения установленного законодательства. Неправомерные действия исключаются.
+                        </p>
+                        <p class="about__us__text">
+                            Компания Атлант на протяжении нескольких лет оказывает квалифицированную поддержку в вопросах урегулирования конфликтов, попадающих под действие гражданских дел. Специалисты тщательно изучают особенности каждого вопроса, разрабатывают персональный план по урегулированию конфликтов в процессе судебных разбирательств.
+                        </p>
+                        <p class="about__us__text">
+                            Грамотно поставленная стратегия и продуманная тактика действий – основной план к успеху.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__main">
+                <section class="contacts">
+                    <div class="container">
+                        <div class="contacts__inner">
+                            <li class="contact__item" style="background-image: url(../img/phone.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">+7(495)182-20-03</a></li>
+                            <li class="contact__item" style="background-image: url(../img/phone.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">+7(800)350-89-29</a></li>
+                            <li class="contact__item" style="background-image: url(../img/callback.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">Обратный звонок</a></li>
+                            <li class="contact__item" style="background-image: url(../img/mail.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">info@mosatlant.ru</a></li>
+                            <li class="contact__item" style="background-image: url(../img/whatssapp.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">WhatssApp</a></li>
+                        </div>
+                    </div>
+                </section>
+               
+                <section class="places">
+                    <div class="container">
+                        <div class="places__inner">
+                            <div class="place__1 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Рязанский проспект</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Выхино</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Котельники</span>Святоозерская, 13</a></li>
+                            </div>
+                            <div class="place__2 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Жулебино</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Лермонтовский проспект</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Косино</span>Святоозерская, 13</a></li>
+                            </div>
+                            <div class="place__3 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Улица Дмитриевскиеого</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Лухмановская</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Некрасовка</span>Святоозерская, 13</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="navigation">
+                    <div class="container">
+                        <div class="navigation__inner">
+                            <div class="blocks">
+                                <div class="block1 block">
+                                    <h4 class="block__title">Навигация</h4>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">О компании</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Услуги</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Информация</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Новости</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Вакансии</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Отызывы</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Скидки</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Обработка персональных данных</a></li>
+                                </div>
+                                <div class="block2 block">
+                                    <h4 class="block__title">Соцсети</h4>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Вконтакте</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Facebook</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Twitter</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Pinterest</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">YouTube</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Коллекция</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Дзен</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Кью</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">2ГИС</a></li>
+                                    
+                                </div>
+                            </div>
+                            <div class="bloks2">
+                                <div class="our__contacts">
+                                    <div class="first__item">
+                                        <h3 class="contacts__title">
+                                            Наши контакты
+                                        </h3>
+                                        <ul class="our__contacts__nav">
+                                            <li class="contacts__item">Адрес офиса: Россия, Москва,</li>
+                                            <li class="contacts__item">Святоозёрская ул., дом 13</li>
+                                            <li class="contacts__item">Телефон: +7(495)182-20-03</li>
+                                            <li class="contacts__item">Телефон: 8(800)350-89-29</li>
+                                            <li class="contacts__item">Электронная почта: <a href="mailto:@mosatlant.ru"><span>info@mosatlant.ru</span></a></li>
+                                        </ul>
+                                        
+                                    </div>
+                                    <div class="second__item">
+                                        <h3 class="contacts__title">
+                                            Режим работы
+                                        </h3>
+                                        <ul class="our__contacts__nav">
+                                            <li class="contacts__item">ПН-ПТ: с 10:30 до 19:00</li>
+                                            <li class="contacts__item">СБ: с 11:00 до 15:00 ВС: Выходной</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="our__video">
+                                    <h4 class="block__title">Видеоканал</h4>
+                                    <div class="channel">
+                                        <a href="#"><img class="channel__img" src="/../img/youtube-atlant.jpg" alt=""></a>
+                                    </div>
+                                    <a href="" class="our__rewievs">
+                                        <div class="contacts__title">
+                                            Отзывы
+                                        </div>
+                                        <div class="rewiews__img">
+                                            <img src="../img/orig.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="footer__inner">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__text">
+                            Авторское право © mosatlant.ru
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

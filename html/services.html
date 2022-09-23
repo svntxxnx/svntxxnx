@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__inner">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <div class="header__top">
+                            <div class="logo">
+                                <a href="index.html"><img src="../img/logo.jpg" width="200" alt="Logo"></a>
+                            </div>
+                            <div class="burger">
+                                <span class="burger__line"></span>
+                            </div>
+                            <div class="options">
+                                <a href="#" class="call option__item">
+                                    <div class="options__title">
+                                        <span>Заказать</span>
+                                        <p></p>
+                                        Обратный звонок
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="nav">
+                                <li class="nav__item"><a class="link__item" href="aboutus.html">о компании</a></li> 
+                                <li class="nav__item menu__item__active "><a class="link__item" href="services.html">услуги</a></li>
+                                <li class="nav__item"><a class="link__item" href="information.html">информация</a></li>
+                                <li class="nav__item"><a class="link__item" href="news.html">новости</a></li>
+                                <li class="nav__item"><a class="link__item" href="https://yandex.ru/profile/81373571577?lr=213">отзывы</a></li>
+                                <li class="nav__item"><a class="link__item" href="discounts.html">скидки</a></li>
+                                <li class="nav__item"><a class="link__item" href="contacts.html">Контакты</a></li> 
+                            </ul>
+                        </nav>
+                        <div class="header__works">
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/chain.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Гражданские </span> дела
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/icon.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Юридическая </span> помощь в мфц
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/man.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>услуги</span> адвоката
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/man.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>услуги</span> юриста
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/support.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Юридическая</span> консультация
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal hidden" id="modal-1" data-modal> 
+                <div class="modal__window">
+                    <div class="card">
+                        <div class="card__title">Обратный звонок</div>
+                        <form action="#" class="form">
+                            <input type="text" class="modal__input" placeholder="Имя" required>
+                            <input type="tel" class="modal__input" placeholder="Телефон" required>
+                            <input type="date" class="modal__input" placeholder="Дата звонка" required>
+                            <input type="time" class="modal__input" placeholder="Время звонка" required>
+                            <div class="personal">
+                                <label for="personal">
+                                    СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                                </label>
+                                <input type="checkbox" name="" id="personal" required>
+                            </div>
+                            <button class="submit__btn modal__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal2 hidden" id="modal-2">
+                <div class="modal__window">
+                    <div class="card">
+                        <div class="card__title">Связь с юридическим центром</div>
+                        <form action="#" class="form">
+                            <input type="text" class="modal__input" placeholder="Имя" required>
+                            <textarea name="" id="" cols="30" rows="10" class="form__textarea modal__textarea" placeholder="Ваше сообщение"></textarea>
+                            <input type="tel" class="modal__input" placeholder="Телефон" required>
+                            <input type="email" class="modal__input" placeholder="Электронная почта E-mail" required>
+                            <div class="personal">
+                                <label for="personal">
+                                    СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                                </label>
+                                <input type="checkbox" name="" id="personal" required>
+                            </div>
+                            <button class="submit__btn modal__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="about__us">
+                <div class="container">
+                    <div class="about__us__block">
+                        <div class="about__company__title">
+                            ЮРИДИЧЕСКИЕ УСЛУГИ - ЮРИСТЫ И АДВОКАТЫ С СУДЕБНОЙ ПРАКТИКОЙ
+                        </div>
+                        <div class="about__us__img">
+                            <img src="../img/services.jpg" alt="about__company">
+                        </div>
+                        <p class="about__us__text">
+                            Юридические услуги от компании «Атлант» - это комплексная поддержка в вопросах гражданских и уголовных дел. Юридические услуги юристов и адвокатов по различным направлениям:
+                        </p>
+                        <div class="about__us__ul">
+                            <li class="about__us__item">гражданских дел</li>
+                            <li class="about__us__item">банкротство физических лиц</li>
+                            <li class="about__us__item">наследница / права собственности / аренды</li>
+                            <li class="about__us__item">жилищного права</li>
+                            <li class="about__us__item">недвижимости</li>
+                            <li class="about__us__item">семейные права</li>
+                            <li class="about__us__item">усыновления / опеки / попечительства</li>
+                            <li class="about__us__item">имущественного права / раздел имущества / приватизация</li>
+                            <li class="about__us__item">защита прав потребителей</li>
+                            <li class="about__us__item">уголовных дел</li>
+                            <li class="about__us__item">административного / исправления</li>
+                            <li class="about__us__item">страхования</li>
+                            <li class="about__us__item">земельного права и т.д</li>
+                        </div>
+                        <p class="about__us__text">
+                            Юристы ведут сделки с недвижимостью, решают вопросы гражданских правоотношений, представляют интересы клиента по семейным делам, устраняют административные споры и берутся за обжалование судебных исков.
+                        </p>
+                        <p class="about__us__text">
+                            Оказание квалифицированной помощи в указанных направлениях позволяет добиться положительной динамики в решении дел и отстаивании прав потребителей. Обязанности специалистов не ограничиваются представительством в органах исполнительной власти, они включают разработку индивидуального графика устранения возникшей проблемы согласно нормам установленного законодательства.
+                        </p>
+                    </div>
+                    <div class="about__us__block">
+                        <div class="about__company__title company__title">
+                            ЮРИДИЧЕСКИЕ УСЛУГИ АДВОКАТА ИЛИ ЮРИСТА С СУДЕБНОЙ ПРАКТИКОЙ
+                        </div>
+                        <p class="about__us__text">
+                            Юридическая компания «Атлант» предоставляет комплексные юридические услуги специалистов. Многолетний опыт наряду с профильным образованием позволяет квалифицированным юристам и адвокатам решать вопросы любой сложности. Экспертная команда работает со всеми направлениями в области гражданского права и уголовного профиля. По квалификационной принадлежности, все операции делятся на услуги юристов и адвокатов.
+                        </p>
+                        <p class="about__us__text">
+                            Юридические услуги юристов и адвокатов – это расширенный комплекс операций, направленных на предоставление помощи в различных направлениях гражданского права. Специалист разрабатывает алгоритмы решения проблемы на досудебном уровне. В случае, когда устранить проблему не удается, за дело берутся профессиональные адвокаты. Они опровергают принятые в ходе судебного заседания решения, путем сбора дополнительных доказательств. Комплекс юридических услуг включает:
+                        </p>
+                        <ul class="about__us__ul">
+                            <li class="about__us__item">информирование в любое время суток</li>
+                            <li class="about__us__item">консультации по ведению конкретного дела в режиме 24/7
+                                полное документальное сопровождение</li>
+                            <li class="about__us__item">составление поэтапного алгоритма действий</li>
+                            <li class="about__us__item">полный анализ сложившейся ситуации</li>
+                            <li class="about__us__item">составление плана по мировому урегулированию конфликта</li>
+                            <li class="about__us__item">полное сопровождение в органах исполнительной власти</li>
+                            <li class="about__us__item">составление грамотных презентаций</li>
+                            <li class="about__us__item">оценка ситуации и прогноз относительно ее решения</li>
+                        </ul>
+                        <p class="about__us__text">
+                            Юрист прорабатывает каждый случай в персональном порядке, осуществляя комплексный анализ с дальнейшей разработкой плана взаимодействия. Главной обязанностью специалиста является максимально быстрое решение проблемы на законном уровне. Комплекс юридических услуги адвоката включает:
+                        </p>
+                        <ul class="about__us__ul">
+                            <li class="about__us__item">сопровождение судебного и досудебного разбирательства</li>
+                            <li class="about__us__item">оказание экстренной помощи (круглосуточное информирование, выезд, консультация в телефонном режиме)</li>
+                            <li class="about__us__item">помощь в составлении искового заявления/запроса/встречного иска</li>
+                            <li class="about__us__item">представительство по гражданским и арбитражным делам</li>
+                        </ul>
+                        <p class="about__us__text">
+                            Компания «Атлант» предоставляет юридические услуги и квалифицированную юридическую помощь адвокатов любого профиля на любой стадии. При обращении к специалистам, клиент получает индивидуальный график ведения дело до полного завершения разбирательства в пользу пострадавшего.
+                        </p>
+                        <div class="important__text">
+                            <span>Важно!</span>
+                            <p>Комплексная помощь предоставляется только в том случае, если деятельность заказчика не перечит установленному законодательству.</p>
+                        </div>
+                        <p class="about__us__text">
+                            Специалисты юридической компании «Атлант» оказывают юридические услуги, с предоставлением устного и письменного консультирования. Ключевой задачей специалистов является устранение проблем в минимально сжатые сроки с учетом действующего законодательства.
+                        </p>
+                        <p class="about__us__text">
+                            По дополнительным вопросам обращайтесь по телефонам. Консультации специалистов доступны на бесплатной основе.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__main">
+                <section class="contacts">
+                    <div class="container">
+                        <div class="contacts__inner">
+                            <li class="contact__item" style="background-image: url(../img/phone.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">+7(495)182-20-03</a></li>
+                            <li class="contact__item" style="background-image: url(../img/phone.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">+7(800)350-89-29</a></li>
+                            <li class="contact__item" style="background-image: url(../img/callback.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">Обратный звонок</a></li>
+                            <li class="contact__item" style="background-image: url(../img/mail.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">info@mosatlant.ru</a></li>
+                            <li class="contact__item" style="background-image: url(../img/whatssapp.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">WhatssApp</a></li>
+                        </div>
+                    </div>
+                </section>
+               
+                <section class="places">
+                    <div class="container">
+                        <div class="places__inner">
+                            <div class="place__1 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Рязанский проспект</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Выхино</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Котельники</span>Святоозерская, 13</a></li>
+                            </div>
+                            <div class="place__2 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Жулебино</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Лермонтовский проспект</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Косино</span>Святоозерская, 13</a></li>
+                            </div>
+                            <div class="place__3 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Улица Дмитриевскиеого</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Лухмановская</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Некрасовка</span>Святоозерская, 13</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="navigation">
+                    <div class="container">
+                        <div class="navigation__inner">
+                            <div class="blocks">
+                                <div class="block1 block">
+                                    <h4 class="block__title">Навигация</h4>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">О компании</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Услуги</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Информация</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Новости</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Вакансии</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Отызывы</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Скидки</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Обработка персональных данных</a></li>
+                                </div>
+                                <div class="block2 block">
+                                    <h4 class="block__title">Соцсети</h4>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Вконтакте</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Facebook</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Twitter</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Pinterest</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">YouTube</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Коллекция</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Дзен</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Кью</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">2ГИС</a></li>
+                                    
+                                </div>
+                            </div>
+                            <div class="bloks2">
+                                <div class="our__contacts">
+                                    <div class="first__item">
+                                        <h3 class="contacts__title">
+                                            Наши контакты
+                                        </h3>
+                                        <ul class="our__contacts__nav">
+                                            <li class="contacts__item">Адрес офиса: Россия, Москва,</li>
+                                            <li class="contacts__item">Святоозёрская ул., дом 13</li>
+                                            <li class="contacts__item">Телефон: +7(495)182-20-03</li>
+                                            <li class="contacts__item">Телефон: 8(800)350-89-29</li>
+                                            <li class="contacts__item">Электронная почта: <a href="mailto:@mosatlant.ru"><span>info@mosatlant.ru</span></a></li>
+                                        </ul>
+                                        
+                                    </div>
+                                    <div class="second__item">
+                                        <h3 class="contacts__title">
+                                            Режим работы
+                                        </h3>
+                                        <ul class="our__contacts__nav">
+                                            <li class="contacts__item">ПН-ПТ: с 10:30 до 19:00</li>
+                                            <li class="contacts__item">СБ: с 11:00 до 15:00 ВС: Выходной</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="our__video">
+                                    <h4 class="block__title">Видеоканал</h4>
+                                    <div class="channel">
+                                        <a href="#"><img class="channel__img" src="/../img/youtube-atlant.jpg" alt=""></a>
+                                    </div>
+                                    <a href="" class="our__rewievs">
+                                        <div class="contacts__title">
+                                            Отзывы
+                                        </div>
+                                        <div class="rewiews__img">
+                                            <img src="../img/orig.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="footer__inner">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__text">
+                            Авторское право © mosatlant.ru
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

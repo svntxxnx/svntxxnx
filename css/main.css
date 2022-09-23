@@ -1,0 +1,405 @@
+.about__company__title {
+    color: #f00;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.about__company__title span::before {
+    content: '«';
+    font-size: 18px;
+}
+.about__company__title span::after {
+    content: '»';
+    font-size: 18px;
+}
+
+.about__us__img {
+    max-width: 100%;
+
+}
+.about__us__img img {
+    width: 100%;
+    height: auto;
+}
+
+.about__us__text {
+    margin: 0 0 10px 0;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.about__us__ul {
+    margin: 20px 0;
+}
+
+.about__us__item {
+    line-height: 1.6;
+    list-style-image: url(../img/dott.png);
+    text-align: justify;
+}
+
+.important__text {
+    position: relative;
+    padding-left: 40px;
+    margin: 20px 15px;
+}
+
+.important__text span {
+    color: #ff0000;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 0;
+    margin-bottom: 10px;
+}
+
+.important__text::before {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: url(../img/megaphone-svgrepo-com.svg) no-repeat left center;
+    left: 0;
+    top: 5px;
+}
+.company__title {
+    color: #f15524;
+    font-size: 18px;
+}
+
+.second__img {
+    max-width: 300px;
+    height: 120%;
+    float: right;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+.about__us__item + .about__us__item {
+    margin-top: 5px;
+}
+
+.discounts__title {
+    color: #f15524;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.contact__info__title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0 0 5px 7px;
+    border-bottom: 1px solid #f15524;
+    margin-bottom: 10px;
+}
+
+.contact__info + .contact__info {
+    margin-top: 20px;
+} 
+
+.contact__info__item {
+    font-size: 15px;
+}
+.contact__info__item + .contact__info__item  {
+    margin-top: 10px;
+}
+.contact__info__item a {
+    color: #ff0000;
+}
+.contact__info__item {
+    list-style-image: url(../img/dott.png);
+
+}
+
+.contact__info__title {
+    margin-top: 10px;
+}
+
+.contact__info__inner {
+    margin-bottom: 20px;
+}
+
+
+
+.order__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    row-gap: 10px;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    font-size: 15px;
+}
+
+.order__input  {
+    margin: 0 0 10px ;
+    padding: 10px 15px 10px 5px !important;
+}
+.check__item {
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+}
+.check__item label {
+    margin-right: 10px;
+}
+
+.check__item + .check__item {
+    margin-top: 25px;
+}
+
+.order__personal {
+    margin-top: 20px;
+}
+    
+.order__submit {
+    width: 60%;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+.contact__info__inner {
+    max-width: 50%;
+}
+
+
+.discounts__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.galery__inner {
+    margin: 50px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+.galery__inner:hover {
+    border-color: #f15524;
+}
+
+
+.galery__item {
+    cursor: pointer;
+    max-width: 300px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.galery__item img {
+    width: 100%;
+    height: auto;
+}
+
+.check__item label, .check__item label + input {
+    cursor: pointer;
+}
+
+
+.first__contact {
+    margin-bottom: 10px;
+}
+
+.contact__info__item span {
+    font-weight: 700;
+    color: #ff0000;
+}
+
+.firstcblock {
+    margin-right: auto;
+    width: 50%;
+}
+
+.secondcblock {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.secondcblock iframe {
+    max-width: 100%;
+    min-height: 400px;
+    height: auto;
+}
+
+.contactss__inner {
+    padding: 25px 30px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.gray__title {
+    display: inline-block;
+    color: #808080;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f15524;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+.left__imgs {
+    float: left;
+    padding: 5px 5px 0 0;
+}
+
+.left__img {
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.left__img img {
+    height: 130px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.left__img:hover  {
+    border: 1px solid #f15524;
+}
+
+.dotted__item {
+    background: #f7f7f7;
+    border-color: #ffdede;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: dashed;
+    border-width: 2px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.dotted__title {
+    margin: 0;
+    font-size: 16px;
+    padding: 6px 0 4px 7px;
+    text-transform: uppercase;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 600;
+    background-color: #dfdfdf;
+    margin-bottom: 10px;
+}
+
+.dotted__subtitle {
+    font-size: 14px;
+}
+
+.dotted__item ul {
+    padding-left: 20px;
+}
+
+.dotted__item {
+    margin: 20px 0;
+}
+
+.dotted__subtitle {
+    line-height: 1.7;
+}
+
+
+.about__us__item2 {
+    font-size: 14px;
+}
+
+
+
+.about__us__ul {
+    margin: 0;
+    padding: 20px;
+}
+
+.about__us__item2 {
+    list-style-image: none;
+    list-style-type:disc;
+}
+
+.about__us__item2::marker {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 824px) {
+    
+    .contactss__inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .firstcblock {
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .secondcblock {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 624px) {
+    .discounts__inner {
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .about__us__item {
+        text-align: left;
+    }
+
+}
+@media (max-width: 524px) {
+    .about__us__text {
+        text-align: left;
+        line-height: 1.4;
+    }
+    .second__img {
+        float: none;
+        max-width: 100%;
+    }
+    .about__company__title  {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .secondcblock iframe {
+        min-height: 200px;
+        height: auto;
+    }
+}

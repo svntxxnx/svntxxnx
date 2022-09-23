@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__inner">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <div class="header__top">
+                            <div class="logo">
+                                <a href="index.html"><img src="../img/logo.jpg" width="200"  alt="Logo"></a>
+                            </div>
+                            <div class="burger">
+                                <span class="burger__line"></span>
+                            </div>
+                            <div class="options">
+                                <a href="#" class="call option__item">
+                                    <div class="options__title">
+                                        <span>Заказать</span>
+                                        <p></p>
+                                        Обратный звонок
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="nav">
+                                <li class="nav__item"><a class="link__item" href="aboutus.html">о компании</a></li> 
+                                <li class="nav__item"><a class="link__item" href="services.html">услуги</a></li>
+                                <li class="nav__item"><a class="link__item" href="information.html">информация</a></li>
+                                <li class="nav__item"><a class="link__item" href="news.html">новости</a></li>
+                                <li class="nav__item"><a class="link__item" href="https://yandex.ru/profile/81373571577?lr=213">отзывы</a></li>
+                                <li class="nav__item"><a class="link__item" href="discounts.html">скидки</a></li>
+                                <li class="nav__item"><a class="link__item" href="contacts.html">Контакты</a></li> 
+                            </ul>
+                        </nav>
+                        <div class="header__works">
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/chain.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Гражданские </span> дела
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/icon.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Юридическая </span> помощь в мфц
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/man.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>услуги</span> адвоката
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/man.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>услуги</span> юриста
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="citizens.html" class="works__item">
+                                <div class="works__img">
+                                    <img src="../img/support.png" width="50" height="50" alt="chain">
+                                    <div class="works__info">
+                                        <span>Юридическая</span> консультация
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal hidden" id="modal-1" data-modal> 
+                <div class="modal__window">
+                    <div class="card">
+                        <div class="card__title">Обратный звонок</div>
+                        <form action="#" class="form">
+                            <input type="text" class="modal__input" placeholder="Имя" required>
+                            <input type="tel" class="modal__input" placeholder="Телефон" required>
+                            <input type="date" class="modal__input" placeholder="Дата звонка" required>
+                            <input type="time" class="modal__input" placeholder="Время звонка" required>
+                            <div class="personal">
+                                <label for="personal">
+                                    СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                                </label>
+                                <input type="checkbox" name="" id="personal" required>
+                            </div>
+                            <button class="submit__btn modal__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal2 hidden" id="modal-2">
+                <div class="modal__window">
+                    <div class="card">
+                        <div class="card__title">Связь с юридическим центром</div>
+                        <form action="#" class="form">
+                            <input type="text" class="modal__input" placeholder="Имя" required>
+                            <textarea name="" id="" cols="30" rows="10" class="form__textarea modal__textarea" placeholder="Ваше сообщение"></textarea>
+                            <input type="tel" class="modal__input" placeholder="Телефон" required>
+                            <input type="email" class="modal__input" placeholder="Электронная почта E-mail" required>
+                            <div class="personal">
+                                <label for="personal">
+                                    СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                                </label>
+                                <input type="checkbox" name="" id="personal" required>
+                            </div>
+                            <button class="submit__btn modal__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section class="projects">
+                <div class="container">
+                    <div class="projects__inner">
+                        <div class="project__item">
+                            <h3 class="item__title">
+                                <a href=""><span>Сделки с</span> Недвижимостью</a>
+                            </h3>
+                            <p class="item__text">
+                                Какие бывают виды сделок с недвижимостью? Как происходит передача денег при сделках недвижимости через депозит нотариуса? Когда договор по сделкам с недвижимостью...
+                            </p>
+                        </div>
+                        <div class="project__item">
+                            <h3 class="item__title">
+                                <a href=""><span>ГРАЖДАНСКИЕ</span> ПРАВООТНОШЕНИЯ</a>
+                            </h3>
+                            <p class="item__text">
+                                Гражданское правоотношение — это урегулированное нормами гражданского права правоотношение, возникающее между юридически равными...
+                            </p>
+                        </div>
+                        <div class="project__item">
+                            <h3 class="item__title">
+                                <a href=""><span>ПРЕДСТАВИТЕЛЬСТВО ПО</span> СЕМЕЙНЫМ ДЕЛАМ</a>
+                            </h3>
+                            <p class="item__text">
+                                Бесплатная консультация адвоката по семейным делам! Представительство в суде. Личное общение с родными в судебном процессе дается клиентам нелегко...
+                            </p>
+                        </div>
+                        <div class="project__item">
+                            <h3 class="item__title">
+                                <a href=""><span>АДМИНИСТРАТИВНЫЕ</span> СПОРЫ</a>
+                            </h3>
+                            <p class="item__text">
+                                Административные споры и их разрешение – это одна из сложнейших категорий дел, поскольку основным доказательством вины «предполагаемого» правонарушителя...
+                            </p>
+                        </div>
+                        <div class="project__item">
+                            <h3 class="item__title">
+                                <a href=""><span>ПРЕДСТАВИТЕЛЬСТВО ПО </span>ЖИЛИЩНЫМ ДЕЛАМ</a>
+                            </h3> 
+                            <p class="item__text">
+                                Представительство по жилищным делам. Ведение жилищного дела в суде Москвы — процедура, отнимающая время и силы, поэтому лучшим вариантом является получение...
+                            </p>
+                        </div>
+                        <div class="project__item">
+                            <h3 class="item__title">
+                                <a href=""><span>БАНКРОТСТВО
+                                    </span>ФИЗИЧЕСКИХ ЛИЦ</a>
+                            </h3>
+                            <p class="item__text">
+                                Банкротство физических лиц предусматривает освобождение должника от финансовых обязательств в результате признания его неплатежеспособным. В статье — описание...
+                            </p>
+                        </div>
+                        <div class="project__item">
+                            <h3 class="item__title">
+                                <a href=""><span>ОБЖАЛОВАНИЕ</span> РЕШЕНИЯ СУДА</a>
+                            </h3>
+                            <p class="item__text">
+                                Обжалование решения суда - вердикт судьи, как правило, не является окончательным, так как с ним может быть не согласна одна или обе стороны спора...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__form">
+                <div class="container">
+                    <div class="main__form__inner">
+                        <form action="" class="form">
+                            <textarea class="form__textarea" placeholder="Вопрос Юристу" name="" id="" cols="30" rows="10"></textarea>
+                            <input class="form__input" type="text" placeholder="Имя">
+                            <input class="form__input" type="email" placeholder="Email">
+                            <div class="form__file">
+                                <div class="file__text">
+                                    Загрузите аватарки
+                                </div>
+                                <input placeholder="Добавить файлы" type="file" name="file" id="input__file" class="input__file">
+                                <label for="input__file"> 
+                                    <div class="file__title">Добавить файлы</div>
+                                    <div class="review">Обзор </div>
+                                </label>
+                            </div>
+                            <div class="personal">
+                                <label for="personal">
+                                    СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ
+                                </label>
+                                <input type="checkbox" name="" id="personal">
+                            </div>
+                            <button class="submit__btn">Отправить</button>
+                            <a href="#" class="history">ИСТОРИЯ ОНЛАЙН ЧАТА С ЮРИСТОМ</a>
+                        </form>
+                    </div>
+                </div>
+            </section>
+             
+        </main>
+        <footer class="footer">
+            <div class="footer__main">
+                <section class="contacts">
+                    <div class="container">
+                        <div class="contacts__inner">
+                            <li class="contact__item" style="background-image: url(../img/phone.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">+7(495)182-20-03</a></li>
+                            <li class="contact__item" style="background-image: url(../img/phone.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">+7(800)350-89-29</a></li>
+                            <li class="contact__item" style="background-image: url(../img/callback.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">Обратный звонок</a></li>
+                            <li class="contact__item" style="background-image: url(../img/mail.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">info@mosatlant.ru</a></li>
+                            <li class="contact__item" style="background-image: url(../img/whatssapp.png); background-repeat: no-repeat; background-position: left center;"><a class="contact__link" href="#">WhatssApp</a></li>
+                        </div>
+                    </div>
+                </section>
+               
+                <section class="places">
+                    <div class="container">
+                        <div class="places__inner">
+                            <div class="place__1 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Рязанский проспект</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Выхино</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Котельники</span>Святоозерская, 13</a></li>
+                            </div>
+                            <div class="place__2 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Жулебино</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Лермонтовский проспект</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Косино</span>Святоозерская, 13</a></li>
+                            </div>
+                            <div class="place__3 place">
+                                <li class="places__item"><a class="places__link" href="#"><span>Улица Дмитриевскиеого</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Лухмановская</span>Святоозерская, 13</a></li>
+                                <li class="places__item"><a class="places__link" href="#"><span>Некрасовка</span>Святоозерская, 13</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="navigation">
+                    <div class="container">
+                        <div class="navigation__inner">
+                            <div class="blocks">
+                                <div class="block1 block">
+                                    <h4 class="block__title">Навигация</h4>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">О компании</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Услуги</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Информация</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Новости</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Вакансии</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Отызывы</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Скидки</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Обработка персональных данных</a></li>
+                                </div>
+                                <div class="block2 block">
+                                    <h4 class="block__title">Соцсети</h4>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Вконтакте</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Facebook</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Twitter</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Pinterest</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">YouTube</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Коллекция</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Дзен</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">Кью</a></li>
+                                    <li class="navigation__item"><a href="#" class="navigation__link">2ГИС</a></li>
+                                    
+                                </div>
+                            </div>
+                            <div class="bloks2">
+                                <div class="our__contacts">
+                                    <div class="first__item">
+                                        <h3 class="contacts__title">
+                                            Наши контакты
+                                        </h3>
+                                        <ul class="our__contacts__nav">
+                                            <li class="contacts__item">Адрес офиса: Россия, Москва,</li>
+                                            <li class="contacts__item">Святоозёрская ул., дом 13</li>
+                                            <li class="contacts__item">Телефон: +7(495)182-20-03</li>
+                                            <li class="contacts__item">Телефон: 8(800)350-89-29</li>
+                                            <li class="contacts__item">Электронная почта: <a href="mailto:@mosatlant.ru"><span>info@mosatlant.ru</span></a></li>
+                                        </ul>
+                                        
+                                    </div>
+                                    <div class="second__item">
+                                        <h3 class="contacts__title">
+                                            Режим работы
+                                        </h3>
+                                        <ul class="our__contacts__nav">
+                                            <li class="contacts__item">ПН-ПТ: с 10:30 до 19:00</li>
+                                            <li class="contacts__item">СБ: с 11:00 до 15:00 ВС: Выходной</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="our__video">
+                                    <h4 class="block__title">Видеоканал</h4>
+                                    <div class="channel">
+                                        <a href="#"><img class="channel__img" src="/../img/youtube-atlant.jpg" alt=""></a>
+                                    </div>
+                                    <a href="" class="our__rewievs">
+                                        <div class="contacts__title">
+                                            Отзывы
+                                        </div>
+                                        <div class="rewiews__img">
+                                            <img src="../img/orig.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="footer__inner">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__text">
+                            Авторское право © mosatlant.ru
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
